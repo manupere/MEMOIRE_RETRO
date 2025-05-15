@@ -4,14 +4,14 @@ const pg = require( "pg");
 
 // création serveur
 const app = express();
-app.set("engine view","ejs");
+app.set("view engine","ejs");
 app.set("views","./views") 
 
 const PORT = process.env.PORT;
 
 //route
 app.get("/",(req,res)=>{
-res.send("HELLO WORLD");
+res.render("index");
 });
 //ecoute serveur
 
