@@ -1,0 +1,27 @@
+{
+  "name": "memoire_retro",
+  "version": "1.0.0",
+  "description": "Jeux vidéos rétro",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/manupere/MEMOIRE_RETRO.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/manupere/MEMOIRE_RETRO/issues"
+  },
+  "homepage": "https://github.com/manupere/MEMOIRE_RETRO#readme",
+  "dependencies": {
+    "dotenv": "^16.5.0",
+    "ejs": "^3.1.10",
+    "express": "^5.1.0",
+    "nodemon": "^3.1.10",
+    "pg": "^8.16.0"
+  }
+}
